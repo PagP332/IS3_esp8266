@@ -20,6 +20,7 @@ NOTHING TO CHANGE, ONLY CONTAINS ESP CLASS FOR SERIAL CONNECTION AND WRITE FUNCT
 
 ```readSerial(){}``` -- function to decode and return the data of the SoftwareSerial into readable text/string
 
-```String value = readSerial();``` -- reads the current entry of the serial, will return empty if there is NONE\
+```String value = readSerial();``` -- reads the current entry of the serial, will return empty if there is NONE
+
 ```if (value != "") Serial.print(value);``` -- only read data when the serial is NOT NONE
 
